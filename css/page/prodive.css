@@ -1,7 +1,16 @@
-.prodive-section {
+.prodive-section,
+.fastest-section {
     background: url("/img/bg-img.svg");
     background-repeat: no-repeat;
     background-position: top left;
+    background-color: #f5f5f5;
+    padding: 30px 20px 30px 20px;
+}
+
+.fastest-section {
+    background: url("/img/bg-img.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
     background-color: #f5f5f5;
     padding: 30px 20px 30px 20px;
 }
@@ -47,10 +56,18 @@
     .prodive-body p {
         font-size: 20px;
     }
+    .fastest-section {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 40px 0 40px 40px;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
 
 @media (min-width:1201px) {
-    .prodive-section {
+    .prodive-section,
+    .fastest-section {
         padding: 70px 60px 70px 60px;
     }
     .prodive-body h3 {
@@ -59,7 +76,8 @@
 }
 
 @media (min-width:1400px) {
-    .prodive-section {
+    .prodive-section,
+    .fastest-section {
         padding: 100px 100px 70px 100px;
     }
     .prodive-body h3 {
