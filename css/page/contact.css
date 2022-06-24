@@ -74,6 +74,12 @@
     .contact-body img {
         margin-right: 20px;
     }
+    .contact-info p {
+        text-align: start;
+    }
+    .contact-info p:last-child {
+        font-size: 26px;
+    }
 }
 
 @media (min-width:1200px) {

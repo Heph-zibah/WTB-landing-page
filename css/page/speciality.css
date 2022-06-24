@@ -60,12 +60,6 @@
     margin-top: 19px;
 }
 
-@media (max-width:480px) {
-    .speciality-cards {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-
 @media (min-width:768px) {
     .speciality-section {
         padding: 50px 30px 50px 30px;
