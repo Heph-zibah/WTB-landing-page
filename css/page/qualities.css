@@ -1,5 +1,9 @@
 .qualities-section {
     padding: 30px 20px 30px 20px;
+    background: url("/img/bg-img.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-color: #f5f5f5;
 }
 
 .qualities-cards {

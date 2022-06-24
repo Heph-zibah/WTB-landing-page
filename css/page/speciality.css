@@ -1,0 +1,119 @@
+.speciality-section {
+    background: url("/img/bg-img.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: #f5f5f5;
+    padding: 30px 20px 30px 20px;
+    position: relative;
+}
+
+.speciality-header-image {
+    position: absolute;
+}
+
+.speciality-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.speciality-card {
+    background: var(--bg-secondary);
+    padding: 15px 25px;
+}
+
+.speciality-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    color: var(--color-secondary);
+    margin-bottom: 32px;
+}
+
+.speciality-card-img {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.speciality-card-img img {
+    width: 100%;
+}
+
+.speciality-card-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.speciality-card button {
+    width: 100%;
+    margin-top: 19px;
+}
+
+@media (max-width:480px) {
+    .speciality-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width:768px) {
+    .speciality-section {
+        padding: 50px 30px 50px 30px;
+    }
+    .speciality-card {
+        background: var(--bg-secondary);
+        padding: 15px 35px;
+    }
+}
+
+@media (min-width:1025px) {
+    .speciality-header-image {
+        position: static;
+    }
+    .speciality-header-image {
+        position: static;
+    }
+    .speciality-section {
+        padding: 100px 40px 60px 40px;
+    }
+    .speciality-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .speciality-card-img img {
+        width: 250px;
+    }
+}
+
+@media (min-width:1201px) {
+    .speciality-section {
+        padding: 70px 60px 70px 60px;
+    }
+    .speciality-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .speciality-card-img img {
+        width: 290px;
+    }
+}
+
+@media (min-width:1440px) {
+    .speciality-section {
+        padding: 126px 100px 27px 100px;
+    }
+    .speciality-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .speciality-card-img img {
+        width: 350px;
+    }
+}
