@@ -1,0 +1,81 @@
+.qualities-section {
+    padding: 30px 20px 30px 20px;
+}
+
+.qualities-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: var(--bg-secondary);
+    padding: 25px 24px;
+    gap: 30px;
+}
+
+.qualities-card {
+    text-align: center;
+    color: #fff;
+    border: 1px dotted var(--color-primary);
+    padding: 5px;
+}
+
+.qualities-card img {
+    margin-bottom: 30px;
+}
+
+.qualities-card h3 {
+    margin-bottom: 10px;
+}
+
+@media (max-width:480px) {
+    .qualities-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width:768px) {
+    .qualities-section {
+        padding: 50px 30px 50px 30px;
+    }
+    .qualities-cards {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 35px 26px;
+    }
+}
+
+@media (min-width:1025px) {
+    .qualities-section {
+        padding: 100px 40px 60px 40px;
+    }
+    .qualities-cards {
+        grid-template-columns: repeat(4, 1fr);
+        padding: 45px 28px;
+    }
+    .qualities-card {
+        border: 0;
+        padding: 0;
+    }
+    .shoot-out {
+        background: var(--color-primary);
+        padding: 45px 0;
+        margin-top: -100px;
+    }
+}
+
+@media (min-width:1201px) {
+    .qualities-section {
+        padding: 70px 60px 70px 60px;
+    }
+    .qualities-cards {
+        grid-template-columns: repeat(4, 1fr);
+        padding: 55px 30px;
+    }
+}
+
+@media (min-width:1440px) {
+    .qualities-section {
+        padding: 126px 100px 100px 100px;
+    }
+    .qualities-cards {
+        grid-template-columns: repeat(4, 1fr);
+        padding: 65px 32px;
+    }
+}

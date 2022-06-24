@@ -21,19 +21,24 @@ header {
 
 .nav-item a {
     text-decoration: none;
+    color: var(--color-secondary)
 }
 
 header button {
     display: none;
 }
 
-.mobile-modals {
+
+/* .menu-bar {
     display: block;
+} */
+
+.mobile-modals {
+    display: none;
 }
 
 .modals {
     background: var(--bg-primary);
-    display: block;
     position: fixed;
     left: 0;
     top: 0;
@@ -93,9 +98,9 @@ header button {
     }
 }
 
-@media (min-width:1020px) {
+@media (min-width:1024px) {
     header {
-        padding: 30px 50px;
+        padding: 30px 40px;
     }
     .nav-div {
         display: block;
@@ -110,7 +115,7 @@ header button {
 
 @media (min-width:1201px) {
     header {
-        padding: 33px 100px;
+        padding: 33px 60px;
     }
     .nav-item {
         margin-right: 70px;
