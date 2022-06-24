@@ -90,7 +90,7 @@
         grid-template-columns: repeat(3, 1fr);
     }
     .speciality-card-img img {
-        width: 250px;
+        width: 230px;
     }
     .speciality-header {
         font-size: 30px;

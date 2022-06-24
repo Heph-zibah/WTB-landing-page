@@ -65,7 +65,7 @@
     }
     .test-images {
         grid-template-columns: repeat(5, 1fr);
-        gap: 40px;
+        gap: 10px;
     }
 }
 
@@ -85,5 +85,6 @@
     }
     .test-images {
         grid-template-columns: repeat(5, 1fr);
+        gap: 40px;
     }
 }
