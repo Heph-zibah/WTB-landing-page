@@ -4,3 +4,8 @@
     background: var(--color-primary);
     color: #fff;
 }
+
+.btn:hover {
+    background: var( --bg-secondary);
+    color: #fff;
+}

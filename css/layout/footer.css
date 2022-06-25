@@ -44,6 +44,11 @@ footer nav ul li a {
     font-size: 20px;
 }
 
+footer nav ul li a:hover {
+    text-decoration: underline;
+    color: var(--color-primary)
+}
+
 @media (min-width:768px) {
     footer {
         padding: 50px 30px 50px 30px;
